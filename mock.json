@@ -1,0 +1,20 @@
+{
+  "imgList": [
+    {
+      "isok":true,"code":200,"message":"请求成功","data":{"id":1,"page":"首页","board":"1","cover":"/uploadFile/2020/10/19/dd704907-3d65-4754-9112-b9ccc5e9fe92.png"}
+    }
+  ],
+  "intro": [
+    {
+      "isok":true,"code":200,"message":"请求成功","data":{"id":1,"content": "本课程为web开发技术，是广东海洋大学数学与计算机学院软件工程系开设的一门专业学科拓展课。学分为3分。在钟海楼02019上课。旨在锻炼 学生能够使用Java Web进行企业级应用开发。学会JSP/Servlet与Tomcat,MySQL相结合的技术。结合JDBC、数据库开发等知识，进行一些实际的JavaWeb 项目的开发。"}
+    }
+  ],
+  "leader": [
+    {
+      "isok":true,"code":200,"message":"请求成功","data":{"id":1,"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    }
+  ],
+  "commentList": [
+    {"isok":true,"code":200,"message":"请求成功","data":{"records":[{"id":77,"average":5,"quantity":5,"interest":5,"participate":5,"design":5,"detail":"<p>我觉得老师讲的非常的好，很生动形象，给我启发很大</p>","createTime":"2020-10-22 16:31:28","wbNum":0,"praiseNum":0,"type":0,"scover":"/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"小陈"}],"total":1,"size":2,"current":1,"orders":[],"searchCount":true,"pages":1}}
+  ]
+}

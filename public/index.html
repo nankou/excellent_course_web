@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="Robots" content="all">
+    <meta name="keywords" content="web开发精品课程"/>
+    <meta name="description" content="web开发精品课程"/>
+    <meta name="author" content="WTeam"/>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>web开发精品课程</title>
+    <style type="text/css">
+      #Loading {
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        transform: translateY(-50%) translateX(-50%);
+        z-index: 100;
+      }
+
+      @-webkit-keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+
+      @keyframes ball-beat {
+        50% {
+          opacity: 0.2;
+          -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+
+      .ball-beat > div {
+        background-color: rgb(65, 195, 215);
+        width: 10px;
+        height: 10px;
+        border-radius: 100% !important;
+        margin: 2px;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        display: inline-block;
+      . -webkit-animation: ball-beat 0.7 s 0 s infinite linear;
+        animation: ball-beat 0.7s 0s infinite linear;
+      }
+
+      .ball-beat > div:nth-child(2n-1) {
+        -webkit-animation-delay: 0.35s ! important;
+        animation-delay: 0.35s !important;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="Loading">
+      <div class="loader-inner ball-beat">
+        <div class=""></div>
+        <div class=""></div>
+        <div class=""></div>
+      </div>
+    </div>
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "imgList": [
+    {
+      "isok":true,"code":200,"message":"请求成功","data":{"id":1,"page":"首页","board":"1","cover":"/uploadFile/2020/10/19/dd704907-3d65-4754-9112-b9ccc5e9fe92.png"}
+    }
+  ],
+  "intro": [
+    {
+      "isok":true,"code":200,"message":"请求成功","data":{"id":1,"content": "本课程为web开发技术，是广东海洋大学数学与计算机学院软件工程系开设的一门专业学科拓展课。学分为3分。在钟海楼02019上课。旨在锻炼 学生能够使用Java Web进行企业级应用开发。学会JSP/Servlet与Tomcat,MySQL相结合的技术。结合JDBC、数据库开发等知识，进行一些实际的JavaWeb 项目的开发。"}
+    }
+  ],
+  "leader": [
+    {
+      "isok":true,"code":200,"message":"请求成功","data":{"id":1,"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit."}
+    }
+  ],
+  "commentList":
+    {"records":[
+      {"id":77,"average":5,"quantity":5,"interest":5,"participate":5,"design":5,"detail":"我觉得老师讲的非常的好，很生动形象，给我启发很大","createTime":"2020-10-22 16:31:28","wbNum":0,"praiseNum":0,"type":0,"scover":"http://wteam2018.cn:8203/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"小陈"},
+      {"id":78,"average":4,"quantity":5,"interest":5,"participate":5,"design":5,"detail":"这门课带给我的启发很大","createTime":"2020-10-22 16:31:28","wbNum":0,"praiseNum":0,"type":0,"scover":"http://wteam2018.cn:8203/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"小黄"},
+      {"id":79,"average":5,"quantity":5,"interest":5,"participate":5,"design":5,"detail":"我通过这门课学习了中如何通过javaweb技术进行编程",
+        "createTime":"2020-10-22 16:31:28","wbNum":0,"praiseNum":0,"type":0,"scover":"http://wteam2018.cn:8203/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"软件1183"}
+    ],"total":1,"size":2,"current":1,"orders":[],"searchCount":true,"pages":1},
+  "interaction": [
+      {"id":78,"average":0,"quantity":0,"interest":0,"participate":0,"design":0,"detail":"<p>你们觉得web开发这门课有趣吗？</p>","createTime":"2020-10-22 16:32:01","wbNum":0,"praiseNum":0,"type":1,"scover":"/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"小陈"},
+      {"id":79,"average":0,"quantity":0,"interest":0,"participate":0,"design":0,"detail":"<p>html里面的p标签是来干嘛的？</p>","createTime":"2020-10-22 16:32:01","wbNum":2,"praiseNum":0,"type":1,"scover":"/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"小陈"},
+      {"id":77,"average":0,"quantity":0,"interest":0,"participate":0,"design":0,"detail":"<p>css动画如何实现呢求教！</p>","createTime":"2020-10-22 16:32:01","wbNum":0,"praiseNum":0,"type":1,"scover":"/uploadFile/2020/10/22/23e84635-c09e-4b85-8f49-ec9137f2e1c3.jpg","sname":"小陈"}
+  ],
+  "homework": [
+    {"id":1,"subTime":"2020-08-03 15:54:39","subAnswer":"答案","hwQuestion":"如何与SpringBoot交流","hwIndex":1,"hwName":"期末复习题","hwRequire":"不准作弊","endTime":"2020-08-08 23:04:03","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
+    {"id":2,"subTime":"2020-09-07 11:24:58","subAnswer":"<p>我觉得不能交流</p>","hwQuestion":"如何与SpringBoot交流","hwIndex":1,"hwName":"期末复习题","hwRequire":"不准作弊","endTime":"2020-08-08 23:04:03","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
+    {"id":3,"subTime":"2020-09-26 11:06:52","subAnswer":"<p>我是禁止白嫖的作业答案</p>","hwQuestion":"如何白嫖","hwIndex":3,"hwName":"第三单元练习","hwRequire":"禁止白嫖","endTime":"2020-09-22 12:12:12","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
+    {"id":4,"subTime":null,"subAnswer":null,"hwQuestion":"string","hwIndex":4,"hwName":"html的使用","hwRequire":"不准抄袭","endTime":"2020-10-10 12:12:12","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
+    {"id":5,"subTime":null,"subAnswer":null,"hwQuestion":"string","hwIndex":5,"hwName":"css的使用","hwRequire":"不准抄袭","endTime":"2020-09-22 12:12:12","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
+    {"id":6 ,"subTime":null,"subAnswer":null,"hwQuestion":"<p>78<img src=\"/api/uploadFile/2020/09/01/8a0c9556-f42a-4eac-aa8b-908f9bdbb0e4.jpg\" alt=\"\" width=\"844\" height=\"844\" /></p>","hwIndex":8,"hwName":"学会js","hwRequire":"不准抄袭","endTime":"2020-09-18 02:02:02","snumber":201811701303,"sname":"小陈","sclass":"软件1183"}
+  ]
+}

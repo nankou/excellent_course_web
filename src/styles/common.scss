@@ -1,0 +1,74 @@
+// 公共样式
+/*阿里巴巴图标*/
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/*富文本容器*/
+.htmlBox {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+.textBtn {
+  align-items: center;
+}
+
+.textBtn:before {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.limitText5 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.limitText4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.limitText3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.limitText2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.limitText1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-align: justify;
+}
+
+span, div {
+  letter-spacing: 0.5px;
+}
