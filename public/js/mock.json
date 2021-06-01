@@ -32,6 +32,5 @@
     {"id":3,"subTime":"2020-09-26 11:06:52","subAnswer":"<p>我是禁止白嫖的作业答案</p>","hwQuestion":"如何白嫖","hwIndex":3,"hwName":"第三单元练习","hwRequire":"禁止白嫖","endTime":"2020-09-22 12:12:12","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
     {"id":4,"subTime":null,"subAnswer":null,"hwQuestion":"string","hwIndex":4,"hwName":"html的使用","hwRequire":"不准抄袭","endTime":"2020-10-10 12:12:12","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
     {"id":5,"subTime":null,"subAnswer":null,"hwQuestion":"string","hwIndex":5,"hwName":"css的使用","hwRequire":"不准抄袭","endTime":"2020-09-22 12:12:12","snumber":201811701303,"sname":"小陈","sclass":"软件1183"},
-    {"id":6 ,"subTime":null,"subAnswer":null,"hwQuestion":"<p>78<img src=\"/api/uploadFile/2020/09/01/8a0c9556-f42a-4eac-aa8b-908f9bdbb0e4.jpg\" alt=\"\" width=\"844\" height=\"844\" /></p>","hwIndex":8,"hwName":"学会js","hwRequire":"不准抄袭","endTime":"2020-09-18 02:02:02","snumber":201811701303,"sname":"小陈","sclass":"软件1183"}
-  ]
+    {"id":6 ,"subTime":null,"subAnswer":null,"hwQuestion":"<p>78<img src=\"/api/uploadFile/2020/09/01/8a0c9556-f42a-4eac-aa8b-908f9bdbb0e4.jpg\" alt=\"\" width=\"844\" height=\"844\" /></p>","hwIndex":8,"hwName":"学会js","hwRequire":"不准抄袭","endTime":"2020-09-18 02:02:02","snumber":201811701303,"sname":"小陈","sclass":"软件1183"}]
 }
