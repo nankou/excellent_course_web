@@ -1,85 +1,85 @@
 <template>
-  <div id="Head">
-    <nav class="navbar navbar-expand-sm  shadow-sm">
-      <!--Nav导航栏-->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent"
-      >
-        <a class="navbar-brand" href="#">
+  <div id="Head" class="navBar">
+    <div class="container">
+      <nav class="navbar navbar-expand-sm  shadow-sm">
+        <a class="navbar-brand" href="/">
           <img src="../../../assets/img/logo.png" style="width: 30px;">
         </a>
         <span style="font-family: AliHYAiHei-Beta,cursive;font-size: 26px;letter-spacing: 2px;color: #1089f0;font-weight: bold;margin-right: 6%">Web开发技术</span>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-        </button>
-        <ul class="navbar-nav" style="display: flex;align-items: center">
-          <li class="nav-item ">
-            <router-link class="nav-link" to="/" :class="[ $route.name === 'home' ? 'active' : '']">
-              <span>首页</span>
-            </router-link>
-          </li>
-          <li  :class="['nav-item ', $route.name === 'student' ? 'active' : '']" >
-            <router-link class="nav-link" :to="{ name: 'student' }" >
-              <span>课程评价</span>
-            </router-link>
-          </li>
+        <button class="navbar-toggler " type="button" data-toggle="collapse " data-target="#navbarNavAltMarkup " aria-controls="navbarNavAltMarkup " aria-expanded="false " aria-label="Toggle navigation "><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup ">
+          <div class="navbar-nav ">
+            <ul class="navbar-nav" style="display: flex;align-items: center">
+              <li class="nav-item ">
+                <router-link class="nav-link" to="/" :class="[ $route.name === 'home' ? 'active' : '']">
+                  <span>首页</span>
+                </router-link>
+              </li>
+              <li  :class="['nav-item ', $route.name === 'student' ? 'active' : '']" >
+                <router-link class="nav-link" :to="{ name: 'student' }" >
+                  <span>课程评价</span>
+                </router-link>
+              </li>
 
-          <li :class="['nav-item ', $route.name === 'interaction' ? 'active' : '']">
-            <router-link class="nav-link" :to="{ name: 'interaction' }" >
-              <span>师生互动</span>
-            </router-link>
-          </li>
-          <li :class="['nav-item ', $route.name === 'homework' ? 'active' : '']">
-            <router-link class="nav-link" :to="{ name: 'homework' }" >
-              <span>作业提交</span>
-            </router-link>
-          </li>
-<!--          <li class="nav-item dropdown">-->
-<!--            <a class="nav-link " role="button"-->
-<!--               :class="[-->
-<!--              'nav-item ',-->
-<!--              $route.name === 'courseware' ? 'active' : ''|-->
-<!--              $route.name === 'video' ? 'active' : ''|-->
-<!--              $route.name === 'outline' ? 'active' : ''-->
-<!--            ]"-->
-<!--               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-<!--              教学资源-->
-<!--            </a>-->
-<!--            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
-<!--              <a class="dropdown-item"><router-link to="/courseware"><span>教学课件</span></router-link></a>-->
-<!--              <a class="dropdown-item"><router-link to="/video"><span>教学录像</span></router-link></a>-->
-<!--              <a class="dropdown-item"><router-link to="/outline"><span>教学大纲</span></router-link></a>-->
-<!--            </div>-->
-<!--          </li>-->
-          <li class="nav-item dropdown">
-              <a style="margin-left: 10px;" href="http://web.itheima.com/?webzly$jingjiahmpz-pz-pc-biaoti">其他资源</a>
-          </li>
-          <li class="nav-item " style="margin-left: 80px">
-            <router-link to="/login" v-if="!isLogin">登录 </router-link>
-          </li>
-          <li class="nav-item ">
-            <router-link to="/personal" v-if="isLogin">{{$tryRead('$store.getters.user.Info.sname',$store) }}</router-link>
-            <router-link to="/register" v-if="!isLogin">注册 </router-link>
-          </li>
-          <li class="nav-item ">
-            <div v-if="isLogin">
-               {{$store.getters.user.username}}
-            </div>
-          </li>
-          <li class="nav-item " style="cursor: pointer">
-            <span v-if="isLogin" @click="outLogin">退出登录</span>
-          </li>
-        </ul>
-      </div>
-      <!--导航内容End-->
-    </nav>
+              <li :class="['nav-item ', $route.name === 'interaction' ? 'active' : '']">
+                <router-link class="nav-link" :to="{ name: 'interaction' }" >
+                  <span>师生互动</span>
+                </router-link>
+              </li>
+              <li :class="['nav-item ', $route.name === 'homework' ? 'active' : '']">
+                <router-link class="nav-link" :to="{ name: 'homework' }" >
+                  <span>作业提交</span>
+                </router-link>
+              </li>
+              <!--          <li class="nav-item dropdown">-->
+              <!--            <a class="nav-link " role="button"-->
+              <!--               :class="[-->
+              <!--              'nav-item ',-->
+              <!--              $route.name === 'courseware' ? 'active' : ''|-->
+              <!--              $route.name === 'video' ? 'active' : ''|-->
+              <!--              $route.name === 'outline' ? 'active' : ''-->
+              <!--            ]"-->
+              <!--               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+              <!--              教学资源-->
+              <!--            </a>-->
+              <!--            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+              <!--              <a class="dropdown-item"><router-link to="/courseware"><span>教学课件</span></router-link></a>-->
+              <!--              <a class="dropdown-item"><router-link to="/video"><span>教学录像</span></router-link></a>-->
+              <!--              <a class="dropdown-item"><router-link to="/outline"><span>教学大纲</span></router-link></a>-->
+              <!--            </div>-->
+              <!--          </li>-->
+              <li class="nav-item dropdown">
+                <a style="margin-left: 10px;" href="http://web.itheima.com/?webzly$jingjiahmpz-pz-pc-biaoti">其他资源</a>
+
+              </li>
+              <!--          <li class="nav-item dropdown">-->
+              <!--            &lt;!&ndash;              <a style="margin-left: 10px;" href="http://web.itheima.com/?webzly$jingjiahmpz-pz-pc-biaoti">其他资源</a>&ndash;&gt;-->
+              <!--            <router-link class="nav-link" :to="{ name: 'cart' }" >-->
+              <!--              <span>购物车</span>-->
+              <!--            </router-link>-->
+              <!--          </li>-->
+              <li class="nav-item " style="margin-left: 80px">
+                <router-link to="/login" v-if="!isLogin">登录 </router-link>
+              </li>
+              <li class="nav-item ">
+                <router-link to="/personal" v-if="isLogin">{{$tryRead('$store.getters.user.Info.sname',$store) }}</router-link>
+                <router-link to="/register" v-if="!isLogin">注册 </router-link>
+              </li>
+              <li class="nav-item ">
+                <div v-if="isLogin">
+                  {{$store.getters.user.username}}
+                </div>
+              </li>
+              <li class="nav-item " style="cursor: pointer">
+                <span v-if="isLogin" @click="outLogin">退出登录</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
   </div>
+
 </template>
 
 <script>

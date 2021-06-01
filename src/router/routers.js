@@ -89,6 +89,27 @@ const routes = [
       keepAlive: true
     }
   },
+  /** **************************************** 购物车模块cart **************************************** **/
+  {
+    path: '/cart',
+    name: 'cart',
+    component: () => import('@/views/cart/cart.vue'),
+    meta: {
+      name: '购物车 | 精品课程',
+      title: '购物车 | 精品课程',
+      keepAlive: true
+    }
+  },
+  {
+    path: '/goodList',
+    name: 'goodList',
+    component: () => import('@/views/cart/goodList.vue'),
+    meta: {
+      name: '商品列表 | 精品课程',
+      title: '商品列表 | 精品课程',
+      keepAlive: true
+    }
+  },
   /** **************************************** 用户模块user **************************************** **/
   // 登录
   {

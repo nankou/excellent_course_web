@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="min-height: 100%">
+  <div id="app">
     <div v-if="$route.meta.keepAlive" style="display: flex;min-height: 100vh" class="flex-column">
       <head-menu/>
       <router-view style="flex: 1 1 auto"/>
