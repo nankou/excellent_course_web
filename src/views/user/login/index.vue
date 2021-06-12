@@ -6,7 +6,7 @@
         <div class="card-title" style="margin-top:6%">
           <img src="../../../assets/img/logo.png" style="width: 15%;height: 22%;">
         </div>
-        <h6 class="card-subtitle mb-2" style="font-size: 25px;letter-spacing: 4px;color: #1089f0;font-weight: bold;padding-top: 3%">web开发技术</h6>
+        <h6 class="card-subtitle mb-2" style="font-size: 25px;letter-spacing: 4px;color: #1089f0;font-weight: bold;padding-top: 3%">用户界面设计</h6>
         <form style="margin-top: 12%;margin-left: 12%;">
           <div class="form-group row">
             <label for="StudentID" class="col-sm-2 col-form-label">学号</label>

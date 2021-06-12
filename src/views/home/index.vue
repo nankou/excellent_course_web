@@ -133,7 +133,7 @@ export default {
         }
       },
       intro: [
-            {"id":1,"content": "本课程为web开发技术，是广东海洋大学数学与计算机学院软件工程系开设的一门专业学科拓展课。学分为3分。在钟海楼02019上课。旨在锻炼 学生能够使用Java Web进行企业级应用开发。学会JSP/Servlet与Tomcat,MySQL相结合的技术。结合JDBC、数据库开发等知识，进行一些实际的JavaWeb 项目的开发。"}
+            {"id":1,"content": "本课程为用户界面设计，是广东海洋大学数学与计算机学院软件工程系开设的一门专业学科拓展课。学分为3分。在钟海楼02019上课。旨在锻炼 学生能够使用Java Web进行企业级应用开发。学会JSP/Servlet与Tomcat,MySQL相结合的技术。结合JDBC、数据库开发等知识，进行一些实际的JavaWeb 项目的开发。"}
       ],
       leader: [
             {"id":1,"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.Lorem ipsum dolor sit amet, consectetur adipiscing elit."}

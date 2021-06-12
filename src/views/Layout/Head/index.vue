@@ -5,7 +5,7 @@
         <a class="navbar-brand" href="/">
           <img src="../../../assets/img/logo.png" style="width: 30px;">
         </a>
-        <span style="font-family: AliHYAiHei-Beta,cursive;font-size: 26px;letter-spacing: 2px;color: #1089f0;font-weight: bold;margin-right: 6%">Web开发技术</span>
+        <span style="font-family: AliHYAiHei-Beta,cursive;font-size: 26px;letter-spacing: 2px;color: #1089f0;font-weight: bold;margin-right: 6%">用户界面设计</span>
         <button class="navbar-toggler " type="button" data-toggle="collapse " data-target="#navbarNavAltMarkup " aria-controls="navbarNavAltMarkup " aria-expanded="false " aria-label="Toggle navigation "><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse " id="navbarNavAltMarkup ">
           <div class="navbar-nav ">
